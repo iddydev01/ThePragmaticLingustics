@@ -619,21 +619,3 @@ a:hover {
 .newsletter-form button:hover {
     background-color: #a87c3a;
 }
-
-.newsletter-disclaimer {
-    font-size: 0.8rem !important;
-    color: #888888;
-    margin-top: 1rem;
-    margin-bottom: 0 !important;
-}
-
-@media (max-width: 600px) {
-    .newsletter-form {
-        flex-direction: column;
-        gap: 0.8rem;
-    }
-    
-    .newsletter-section {
-        padding: 2.5rem 1.5rem;
-    }
-}
