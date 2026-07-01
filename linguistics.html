@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Standard SEO -->
+<meta name="description" content="A publication bridging linguistic science with everyday communication tips.">
+
+<!-- Social Media (Open Graph) -->
+<meta property="og:title" content="The Pragmatic Linguist">
+<meta property="og:description" content="Explore linguistic structure, phonetics, and practical writing and speaking tips.">
+<meta property="og:image" content="https://yourusername.github.io/repository-name/images/og-share.png">
+<meta property="og:type" content="website">
+    <title>Linguistics Articles - The Pragmatic Linguist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">The Pragmatic Linguist</a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="linguistics.html" class="active">Linguistics</a></li>
+                    <li><a href="communication.html">Communication Tips</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+        <section class="content-section">
+            <div class="category-header">
+                <h1>Linguistics Articles</h1>
+                <p class="category-intro">Exploring the structure of language, how it shapes society, and how it constantly evolves over time.</p>
+            </div>
+
+            <!-- Interactive Tag Filters -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-tag="all">All Topics</button>
+                <button class="filter-btn" data-tag="Phonetics">Phonetics</button>
+                <button class="filter-btn" data-tag="Sociolinguistics">Sociolinguistics</button>
+                <button class="filter-btn" data-tag="Semantics">Semantics</button>
+            </div>
+
+            <!-- Target Grid for JavaScript rendering -->
+            <div class="grid-container" id="linguistics-page-grid"></div>
+        </section>
+    </main>
+
+    <!-- Global Reading Modal (Overlay) -->
+    <div class="modal" id="reading-modal">
+        <div class="modal-card">
+            <button class="close-btn" id="modal-close">&times;</button>
+            <div class="modal-meta-wrapper">
+                <span class="modal-tag" id="modal-tag">Tag</span>
+                <span class="modal-time" id="modal-time">1 min read</span>
+            </div>
+            <h2 class="modal-title" id="modal-title">Article Title</h2>
+            <div class="modal-body">
+                <p id="modal-content">Article text goes here...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Dispatch Section -->
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <h2>Join the Dispatch</h2>
+            <p>Get our monthly linguistic essays and bi-weekly communication guides delivered straight to your inbox.</p>
+            <form action="https://buttondown.email/api/emails/embed-subscribe/YOUR_BUTTONDOWN_USERNAME" method="post" target="popupwindow" class="newsletter-form">
+                <input type="email" name="email" id="bd-email" placeholder="Enter your email address..." required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <p class="newsletter-disclaimer">No spam, ever. Unsubscribe with one click at any time.</p>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p>&copy; 2026 The Pragmatic Linguist. Exploring language structure and daily speech.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
